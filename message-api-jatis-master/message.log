@@ -1,0 +1,27 @@
+2022-12-01 08:00:41.481  INFO 11400 --- [main] com.messageapi.dc.MessageApiApplication  : Starting MessageApiApplication using Java 11.0.16 on ThinkPad-MR9O6V8 with PID 11400 (E:\Jatis Mobile\Final Project\update\message-api-jatis-master\target\classes started by musli in E:\Jatis Mobile\Final Project\update\message-api-jatis-master)
+2022-12-01 08:00:41.562  INFO 11400 --- [main] com.messageapi.dc.MessageApiApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-12-01 08:00:54.953  INFO 11400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-01 08:00:56.077  INFO 11400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 983 ms. Found 1 JPA repository interfaces.
+2022-12-01 08:01:21.947  INFO 11400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+2022-12-01 08:01:22.198  INFO 11400 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-01 08:01:22.202  INFO 11400 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-01 08:01:33.141  INFO 11400 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-01 08:01:33.150  INFO 11400 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 50155 ms
+2022-12-01 08:01:48.274  INFO 11400 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-01 08:01:53.446  INFO 11400 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-01 08:02:21.837  INFO 11400 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-01 08:02:24.427  INFO 11400 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-01 08:02:28.825  INFO 11400 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-01 08:02:29.188  INFO 11400 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-12-01 08:02:35.921  INFO 11400 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-01 08:02:36.048  INFO 11400 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-01 08:02:39.456  WARN 11400 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-01 08:02:41.743  INFO 11400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8089 (http) with context path ''
+2022-12-01 08:02:41.866  INFO 11400 --- [main] com.messageapi.dc.MessageApiApplication  : Started MessageApiApplication in 124.157 seconds (JVM running for 127.24)
+2022-12-01 08:02:49.600  INFO 11400 --- [http-nio-8089-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-01 08:02:49.603  INFO 11400 --- [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-01 08:02:49.610  INFO 11400 --- [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2022-12-01 08:02:50.315  INFO 11400 --- [http-nio-8089-exec-1] c.m.dc.controller.MessageApiController   : [Message] Controller Message Api Has Hit 
+2022-12-01 08:02:53.959  INFO 11400 --- [http-nio-8089-exec-1] c.messageapi.dc.service.ProducerService  : [Message] producer (send message) has successfuly executed
+2022-12-01 08:02:53.967  INFO 11400 --- [http-nio-8089-exec-1] c.m.dc.controller.MessageApiController   : [Message] Payload : {messaging_product=whatsapp, recipient_type=individual, to=6282326225295, type=text, text={preview_url=false, body=Testing Cloud Api Final Project}}, message_id : 20e1b7c0-70f7-4fad-a9d2-ed3a6ba82133
+2022-12-01 08:02:54.018  INFO 11400 --- [http-nio-8089-exec-1] c.m.dc.controller.MessageApiController   : [Message] Response successfuly sended
